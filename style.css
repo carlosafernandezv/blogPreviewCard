@@ -3,18 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: hsl(47, 88%, 63%);
+}
 
 @media only screen and (min-width:320px) and (max-width:480px) {
     main {
-        background-color: hsl(47, 88%, 63%);
+        
         display: flex;
         justify-content: center;
+        
 
     }
 
-    .card {
-        
-        
+    .card { 
         border-radius: 20px;
         width: 327px;
         height: 501px;
@@ -100,14 +102,182 @@
 @media only screen and (min-width:481px) and (max-width:768px) {
 
     main {
-        background-color: red;
+        background-color: hsl(47, 88%, 63%);
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .card {
+        
+        
+        border-radius: 20px;
+        width: 384px;
+        height: 522px;
+        background-color: white;
+        border: 1px solid black;
+    }
+
+    .illustrationArticle {
+        width: 336px;
+        height: 200px;
+        border-radius: 10px;
+        border: 1px solid white;
+        object-fit: cover;
+        margin-top: 24px;
+    }
+    
+    .imgContainer{
+        margin-left: 24px;
+    }
+
+    .botton {
+        margin-top: 24px;
+        height: 23px;
+        width: 82px;
+        background-color: hsl(47, 88%, 63%);
+        
+        border-radius: 4px;
+        font-size: 14px;
+        font-family: Figtree;
+        font-weight:800;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .botton p {
+        
+        text-align: center;
+    }
+    .date{
+        margin-top: 12px;
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .title{
+        margin-top: 12px;
+        font-family: Figtree;
+        font-size: 24px;
+        font-weight: 800;
+
+    }
+    .content{
+        margin-top: 12px;
+        font-family: Figtree;
+        font-size: 16px;
+        font-weight: 500;
+        color: gray;
+
+    }
+    .author{
+        margin-top: 24px;
+        width: 129px;
+        height: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .name{
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 150;
+    }
+    .photo{
+        width: 32px;
+        height: 32px;
     }
 }
 
 @media only screen and (min-width:769px) and (max-width:1024px) {
 
     main {
-        background-color: blueviolet;
+        
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .card {
+        
+        
+        border-radius: 20px;
+        width: 441px;
+        height: 543px;
+        background-color: white;
+        border: 1px solid black;
+    }
+
+    .illustrationArticle {
+        width: 336px;
+        height: 200px;
+        border-radius: 10px;
+        border: 1px solid white;
+        object-fit: cover;
+        margin-top: 24px;
+    }
+    
+    .imgContainer{
+        margin-left: 24px;
+    }
+
+    .botton {
+        margin-top: 24px;
+        height: 23px;
+        width: 82px;
+        background-color: hsl(47, 88%, 63%);
+        
+        border-radius: 4px;
+        font-size: 14px;
+        font-family: Figtree;
+        font-weight:800;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .botton p {
+        
+        text-align: center;
+    }
+    .date{
+        margin-top: 12px;
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .title{
+        margin-top: 12px;
+        font-family: Figtree;
+        font-size: 24px;
+        font-weight: 800;
+
+    }
+    .content{
+        margin-top: 12px;
+        font-family: Figtree;
+        font-size: 16px;
+        font-weight: 500;
+        color: gray;
+
+    }
+    .author{
+        margin-top: 24px;
+        width: 129px;
+        height: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .name{
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 150;
+    }
+    .photo{
+        width: 32px;
+        height: 32px;
     }
 
 }
