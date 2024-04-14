@@ -26,6 +26,12 @@ body{
         border: 1px solid black;
     }
 
+    .card:hover{
+        
+        box-shadow: 10px 10px 5px black;
+        color: hsl(47, 88%, 63%);
+    }
+
     .blogimage {
         width: 279px;
         height: 200px;
@@ -51,6 +57,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        color: black;
     }
 
     .category p {    
@@ -62,6 +69,7 @@ body{
         font-family: Figtree;
         font-size: 12px;
         font-weight: 500;
+        color: black;
     }
 
     .title{
@@ -86,6 +94,7 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        color: black;
     }
 
     .name{
@@ -113,11 +122,18 @@ body{
     }
 
     .card {
+        color: black;
         border-radius: 20px;
         width: 384px;
         height: 522px;
         background-color: white;
         border: 1px solid black;
+    }
+
+    .card:hover{
+        
+        box-shadow: 10px 10px 5px black;
+        color: hsl(47, 88%, 63%);
     }
 
     .blogimage  {
@@ -145,6 +161,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        color: black;
     }
 
     .category p {
@@ -156,6 +173,7 @@ body{
         font-family: Figtree;
         font-size: 14px;
         font-weight: 500;
+        color: black;
     }
 
     .title{
@@ -180,6 +198,7 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        color: black;
     }
 
     .name{
@@ -206,7 +225,6 @@ body{
     }
 
     .card {
-        color: black;
         border-radius: 20px;
         width: 441px;
         height: 543px;
@@ -214,14 +232,12 @@ body{
         border: 1px solid black;
         box-shadow: 5px 5px 5px black;
     }
-    .card:hover{
-        
-        box-shadow: 10px 10px 5px black;
-        color: blue;
 
+    .card:hover{
+        box-shadow: 10px 10px 5px black;
+        color: hsl(47, 88%, 63%);
     }
     
-
     .blogimage {
         width: 393px;
         height: 200px;
@@ -248,6 +264,7 @@ body{
         justify-content: center;
         align-items: center;
         color: black;
+        
     }
 
     .category p {    
@@ -260,6 +277,7 @@ body{
         font-size: 14px;
         font-weight: 500;
         color: black;
+        
     }
 
     .title{
@@ -270,7 +288,6 @@ body{
         
     }
     
-
     .description{
         margin-top: 12px;
         font-family: Figtree;
@@ -287,6 +304,7 @@ body{
         justify-content: space-between;
         align-items: center;
         color: black;
+        
     }
 
     .name{
